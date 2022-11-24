@@ -49,6 +49,8 @@ guantool本身是基于"低代码"项目: <https://github.com/pocketbase/pocketb
 
 导入后, 可以检查一下 Collections 下是否出现了 "project" 和 "etl\_file" 两个Collections (Tables), 这里会存储 guantool etl解析功能的元数据.
 
+![img](screenshots/pb_2_tables.png)
+
 然后就可以访问 <http://127.0.0.1:8090/> 来使用本工具了. 项目名称可以随便新建一个, 然后上传观远BI的ETL导出的JSON文件. 比如本目录下的 example\_simple\_etl.json 文件.
 
 ![img](screenshots/guantool_simple_etl.png)
